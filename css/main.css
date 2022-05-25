@@ -43,8 +43,13 @@ a {
 	font-size: 17px;
 	line-height: 20px;
 	color: #373737;
+	padding: 13px 0;
+	border-bottom: 3px solid transparent;
+	transition: all 0.3s linear;
 }
-
+.header .navbar .nav-list .nav-item .nav-link:hover {
+	border-bottom: 3px solid #717CFF;
+}
 .header .btn {
 	padding: 9px 32px 13px 35px;
 	font-weight: 500;
