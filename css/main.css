@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #F2F2F2;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 1240px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	padding: 40px 0 0 0;
+	margin-bottom: 128px;
+}
+
+.header .logo {
+	margin-right: 175px;
+}
+
+.header .navbar .nav-list {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+.header .navbar .nav-list .nav-item .nav-link {
+	padding: 0;
+	margin: 0 72px 0 0;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 20px;
+	color: #373737;
+}
+
+.header .btn {
+	padding: 9px 32px 13px 35px;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 20px;
+	border: 2px solid #717CFF;
+	border-radius: 11px;
+	color: #505050;
+}
+.banner {
+	display: flex;
+	justify-content: space-between;
+}
+.banner .banner-left {
+ width: 632px;
+}
+.banner .banner-left .title {
+	margin:0 0 15px 0;
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 66px;
+	color: #2F2F2F;
+	width:500px;
+}
+.banner .banner-left .title span {
+	color:  #717CFF;
+}
+.banner .banner-left .text {
+	margin-bottom: 42px;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 38px;
+	color: #7D7D7D;
+}
+.banner .banner-left .btn {
+	width: 262px;
+background-color: #717CFF;
+border-radius: 11px;
+padding: 12px 34px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: #fff;
+font-weight: 500;
+font-size: 22px;
+line-height: 40px;
+margin-bottom: 107px;
+}
+.banner .banner-left .list {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	padding: 0;
+	margin: 0 0 58px 0;
+
+}
+.banner .banner-left .list .list-item .link {
+margin-right:29px;
+
+}
+.banner .banner-right .girl {
+	margin-top: 22px;
+}
+.section-tuo {
+	background-color: #FAFAFA;
+}
+.carusel {
+	padding: 55px 0 57px 0;
+}
+.carusel .title {
+	text-align: center;
+	font-weight: 500;
+font-size: 23px;
+line-height: 27px;
+opacity: 0.73;
+color: #373737;
+margin-bottom: 86px;
+}
+.carusel .list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+	margin: 0 0 104px 0;
+}
