@@ -48,21 +48,10 @@ a {
 	transition: all 0.3s linear;
 }
 .header .navbar .nav-list .nav-item .nav-link {
-position: relative;
+	border-bottom: 3px solid transparent;
 }
-.header .navbar .nav-list .nav-item::before {
-	bottom: 560px;
-	content: "";
-	position: absolute;
-	width:0% ;
-	height: 5px;
-	border-radius: 2px;
-	background-color: transparent;
-	transition: all 0.4s linear;
-}
-.header .navbar .nav-list .nav-item:hover::before {
-	width:6% ;
-	background-color: #717CFF;
+.header .navbar .nav-list .nav-item .nav-link:hover {
+border-color: #717CFF;
 }
 .header .btn {
 	padding: 9px 32px 13px 35px;
@@ -241,7 +230,18 @@ margin-bottom: 0;
 	font-size: 24px;
 	line-height: 37px;
 	color: #37474F;
+	
+}
+.section-three .card-group .card .btn {
+	width: 133px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-weight: 700;
+font-size: 17px;
+line-height: 20px;
 
+color: #717CFF;
 }
 .section-four {
 	background-color: #FAFAFA;
