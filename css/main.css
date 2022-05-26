@@ -44,11 +44,25 @@ a {
 	line-height: 20px;
 	color: #373737;
 	padding: 13px 0;
-	border-bottom: 3px solid transparent;
+	/* border-bottom: 3px solid transparent; */
 	transition: all 0.3s linear;
 }
-.header .navbar .nav-list .nav-item .nav-link:hover {
-	border-bottom: 3px solid #717CFF;
+.header .navbar .nav-list .nav-item .nav-link {
+position: relative;
+}
+.header .navbar .nav-list .nav-item::before {
+	bottom: 560px;
+	content: "";
+	position: absolute;
+	width:0% ;
+	height: 5px;
+	border-radius: 2px;
+	background-color: transparent;
+	transition: all 0.4s linear;
+}
+.header .navbar .nav-list .nav-item:hover::before {
+	width:6% ;
+	background-color: #717CFF;
 }
 .header .btn {
 	padding: 9px 32px 13px 35px;
