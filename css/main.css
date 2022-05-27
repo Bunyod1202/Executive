@@ -64,11 +64,10 @@ margin-bottom: 107px;
 	transition: all 0.3s linear;
 }
 .header .navbar .nav-list .nav-item .nav-link {
-border-bottom: 3px solid transparent;
-transition: border 0.5s linear;
+	border-bottom: 3px solid transparent;
 }
 .header .navbar .nav-list .nav-item .nav-link:hover {
-border-bottom: 3px solid  #717CFF;
+border-color: #717CFF;
 }
 .header .btn {
 	padding: 9px 32px 13px 35px;
@@ -236,7 +235,18 @@ margin-bottom: 0;
 	font-size: 24px;
 	line-height: 37px;
 	color: #37474F;
+	
+}
+.section-three .card-group .card .btn {
+	width: 133px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-weight: 700;
+font-size: 17px;
+line-height: 20px;
 
+color: #717CFF;
 }
 .section-four {
 	background-color: #FAFAFA;
