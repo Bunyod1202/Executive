@@ -78,11 +78,14 @@ border-color: #717CFF;
 	border-radius: 11px;
 	color: #505050;
 }
-.banner {
+.section-one {
 	background-image: url(../images/girl.png);
 	background-position:right ;
 	background-repeat: no-repeat ;
-	background-size:1050px;
+	background-size:575px;
+}
+.banner {
+	
 	display: flex;
 	justify-content: space-between;
 
