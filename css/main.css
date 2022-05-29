@@ -79,8 +79,13 @@ border-color: #717CFF;
 	color: #505050;
 }
 .banner {
+	background-image: url(../images/girl.png);
+	background-position:right ;
+	background-repeat: no-repeat ;
+	background-size:1050px;
 	display: flex;
 	justify-content: space-between;
+
 }
 .banner .banner-left {
 	width: 632px;
@@ -116,9 +121,6 @@ width: 262px;
 }
 .banner .banner-left .list .list-item .link {
 	margin-right:29px;
-}
-.banner .banner-right .girl {
-	margin-top: 22px;
 }
 .section-tuo {
 	background-color: #FAFAFA;
