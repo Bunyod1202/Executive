@@ -235,26 +235,42 @@ transition: width 0.3s linear;
 	border-radius: 15px;
 	margin-right: 47px;
 	margin-bottom: 50px;
+	position: relative;
+}
+.section-three .card-group .card::before {
+	content: "";
+	position: absolute;
+	width: 76px;
+	height: 76px;
+	border-radius: 38px;
+	margin-bottom: 30px;
+	background-repeat: no-repeat;
+	background-position: center ;
 }
 
-.section-three .card-group .card .img-track {
+.section-three .card-group .img-track::before {
 	background-color: #717CFF;
+	background-image: url("../images/track.svg");
 }
 
-.section-three .card-group .card .img-album {
+.section-three .card-group .img-album::before {
 	background-color: #FF5959;
+	background-image: url("../images/album.svg");
 }
 
-.section-three .card-group .card .img-file-checked {
+.section-three .card-group .img-file-checked::before {
 	background-color: #70CE88;
+	background-image: url("../images/file-checked.svg");
 }
 
-.section-three .card-group .card .img-home {
+.section-three .card-group .img-home::before {
 	background-color: #5C96FF;
+	background-image: url("../images/home.svg");
 }
 
-.section-three .card-group .card .img-airplane {
+.section-three .card-group .img-airplane::before {
 	background-color: #FA706C;
+	background-image: url("../images/airplane.svg");
 }
 
 .section-three .card-group .card-left {
