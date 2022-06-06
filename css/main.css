@@ -78,7 +78,7 @@ margin-left: 40px;
 	display: flex;
 	align-items: center;
 	padding: 40px 0 0 0;
-	margin-bottom: 128px;
+
 }
 
 .header .logo {
@@ -128,10 +128,11 @@ transition: width 0.3s linear;
 }
 
 .section-one {
+	padding: 128px 0 0 0;
 	background-image: url("../images/girl.png");
-	background-position:right -400px top 14px;
+	background-position: calc(940px - 50px) calc(160px - 50px);
 	background-repeat: no-repeat;
-	background-size: 975px;
+	background-size: 1075px;
 }
 
 .banner {
@@ -143,6 +144,7 @@ transition: width 0.3s linear;
 
 .banner .banner-left {
 	width: 632px;
+	padding: 0 0 59px 0;
 }
 
 .banner .banner-left .btn {
@@ -175,7 +177,7 @@ transition: width 0.3s linear;
 	display: flex;
 	align-items: center;
 	padding: 0;
-	margin: 0 0 58px 0;
+
 
 }
 
