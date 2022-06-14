@@ -130,7 +130,7 @@ transition: width 0.3s linear;
 .section-one {
 	padding: 128px 0 0 0;
 	background-image: url("../images/girl.png");
-	background-position: calc(940px - 50px) calc(160px - 50px);
+	background-position: calc(50% + 700px) calc(-100% + 40px);
 	background-repeat: no-repeat;
 	background-size: 1075px;
 }
